@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+            <Pane fx:id="paneEgg" layoutY="1.0" prefHeight="200.0" prefWidth="0.0">
+      </Pane>
+   </center>
+   <right>
+      <VBox alignment="CENTER" style="-fx-background-color: Pink;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#boxclick" prefHeight="20.0" prefWidth="95.0" style="-fx-background-color: MediumSpringGreen; -fx-border-color: MediumSeaGreen;" text="Корзинка" />
+            <Button mnemonicParsing="false" onAction="#nameclick" prefHeight="20.0" prefWidth="95.0" style="-fx-background-color: MediumSpringGreen; -fx-border-color: MediumSeaGreen;" text="Надпись" />
+            <Button mnemonicParsing="false" onAction="#glitclick" prefHeight="20.0" prefWidth="95.0" style="-fx-background-color: MediumSpringGreen; -fx-border-color: MediumSeaGreen;" text="Блики" />
+            <Button mnemonicParsing="false" onAction="#vseclick" prefHeight="20.0" prefWidth="95.0" style="-fx-background-color: MediumSpringGreen; -fx-border-color: MediumSeaGreen;" text="Добавить все" />
+            <Button mnemonicParsing="false" onAction="#delete" prefHeight="20.0" prefWidth="95.0" style="-fx-background-color: MediumSpringGreen; -fx-border-color: MediumSeaGreen;" text="Очистить" />
+         </children>
+      </VBox>
+   </right>
+</BorderPane>
